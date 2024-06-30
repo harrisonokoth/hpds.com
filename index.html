@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Porter Digital Services</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.png">
+
+    <style>
+        body {
+            background-color: #f0f8ff; /* Attractive light blue background */
+            color: #333; /* Improved text visibility */
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .navbar-brand:hover,
+        .navbar-nav .nav-link:hover,
+        .navbar-brand:hover {
+            color: #00aced;
+            transform: scale(1.1); /* Adjust the scale as desired */
+        }
+
+        .section {
+            padding: 20px;
+        }
+
+        .section:hover {
+            background-color: #e0f7fa; /* Light blue background on hover */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .top-right-logo {
+            background-color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        #contact .container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        #contact .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 2in; /* Adjust the margin to move the contact info to the right */
+        }
+
+        #contact img {
+            max-width: 200px;
+            height: auto;
+            margin-left: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .top-right-logo:hover,
+        #contact img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .footer-logo {
+            width: 100px;
+            vertical-align: middle;
+            transition: transform 0.3s ease;
+        }
+
+        .footer-logo:hover {
+            transform: scale(1.1);
+        }
+
+        .social-media {
+            margin-top: 10px;
+        }
+
+        .social-media a {
+            color: #00aced;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+
+        .social-media a:hover {
+            color: #007bb5;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Harry Porter Digital Services</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#expertise">Expertise</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-light py-3">
+        <div class="container text-center">
+            <h1 class="display-4" style="color: #333;">Harry Porter Digital Services</h1>
+            <img src="logo.png" alt="Harry Porter Digital Services Logo" class="top-right-logo">
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Harry Porter Digital Services</h2>
+            <p><b>Harry Porter Digital Services</b> is a premier data analytics and digital services company founded by Harrison Okoth, a seasoned data scientist with a passion for uncovering insights and solving complex problems through data. Established in 2019, we have been committed to delivering high-quality data solutions to clients worldwide, operating remotely to serve a global audience.</p>
+            <p>With a strong foundation in statistical analysis, machine learning, and data visualization, we are dedicated to helping businesses and organizations make data-driven decisions that drive success. Our remote setup allows us to tap into a diverse talent pool and provide flexible services tailored to the unique needs of each client.</p>
+            <p>Our team is comprised of experts who are not only skilled in data analytics but also adept at communicating complex data insights in a clear and actionable manner. Whether you are a small startup or a large enterprise, we are here to empower you with the knowledge and tools needed to thrive in today’s data-driven world.</p>
+        </div>
+    </section>
+
+    <section id="expertise" class="section bg-light">
+        <div class="container">
+            <h2>Our Expertise</h2>
+            <ul>
+                <li>Python, SPSS, STATA, R, SQL</li>
+                <li>Storytelling with Data</li>
+                <li>Problem-Solving with Data</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service">
+                        <h3>Data Analysis</h3>
+                        <p>We specialize in interpreting complex data sets to help our clients understand their data and make informed decisions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <h3>Data Visualization</h3>
+                        <p>We create visually compelling and informative representations of data to communicate insights effectively.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <h3>Graphics Design</h3>
+                        <p>Our graphics design services include:</p>
+                        <ul>
+                            <li><i>Logo and Branding Design:</i> Crafting unique visual identities that resonate with your target audience.</li>
+                            <li><i>Print Design:</i>Developed an AI-based fraud detection system for a leading financial institution, which resulted in a 30% reduction in fraudulent transactions.</li>
+                            <li><i>Print Design:</i> Designing brochures, flyers, posters, and other print materials with a focus on aesthetics and effectiveness.</li>
+                            <li><i>UI/UX Design:</i> Creating intuitive and engaging user interfaces and experiences for web and mobile applications.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <h3>Technical Writing</h3>
+                        <p>Our technical writing services include:</p>
+                        <ul>
+                            <li><b>Documentation Services:</b> Developing comprehensive user manuals, technical guides, and documentation for software and hardware products.</li>
+                            <li><b>Proposal Writing:</b> Crafting persuasive proposals and bids for project funding and business opportunities.</li>
+                            <li><b>White Paper Development:</b> Research-driven white papers that explore industry trends, technologies, and solutions.</li>
+                            <li><b>Websites and Web applications Development:</b> We help businesses and individuals scale globally by creating well curated websites and apps that are user friendly.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <h3>Media Production</h3>
+                        <p>Our media production services include:</p>
+                        <ul>
+                            <li>Video Production: Full-service video production from concept development to filming, editing, and post-production.</li>
+                            <li>Photography: Professional photography services for events, products, corporate portraits, and more.</li>
+                            <li>Audio Production: Podcast production, voice-over recordings, and audio editing for various media projects.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <h3>Other Services</h3>
+                        <p>In addition to our core offerings, we provide tailored solutions in:</p>
+                        <ul>
+                            <li>Business Intelligence (BI) Solutions</li>
+                            <li>Customer Analytics</li>
+                            <li>Risk Management</li>
+                            <li>Fraud Detection</li>
+                        </ul>
+                        <p>We leverage our expertise in data analytics and digital services to deliver comprehensive solutions that meet the unique needs of our clients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h1>Our Projects</h1>
+            <ul>
+                <li>Designed and developed a user-friendly e-commerce website with integrated payment solutions and real-time inventory management.</li>
+                <li>Created an interactive dashboard for a retail company, enabling them to track customer behavior and improve marketing strategies</li>
+                <li>Conducted an in-depth analysis of healthcare data to identify trends and improve patient outcomes for a major healthcare provider.</li>
+                <li>Designed and developed a user-friendly e-commerce website with integrated payment solutions and real-time inventory management.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="contact-info">
+                <p>Phone: <a href="tel:+254704103869">+254704103869</a></p>
+                <p>X: <a href="https://twitter.com/hpdservices" target="_blank">@hpdservices</a></p>
+                <p>Facebook: <a href="https://www.facebook.com/Harry Porter Digital Services" target="_blank">Harry Porter Digital Services</a></p>
+            </div>
+            <img src="photo.jpg" alt="Harry Porter Digital Services Logo" class="top-right-logo">
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="logo.png" alt="Harry Porter Digital Services Logo" class="footer-logo">
+            <p>&copy; 2024 Harry Porter Digital Services. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://twitter.com/hpdservices"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/Harry Porter Digital Services"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
